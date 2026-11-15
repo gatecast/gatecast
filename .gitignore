@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Node / React (Chris)
+node_modules/
+.next/
+npm-debug.log*
+
+# Go (Zach)
+*.exe
+*.test
+*.out
+
+# Secrets: never commit these
+.env.*
+!.env.example
+*.pem
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
