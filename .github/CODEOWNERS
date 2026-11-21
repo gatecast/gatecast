@@ -1,11 +1,11 @@
 # GitHub automatically requests a review from the owner of the files a PR touches.
 # Replace the usernames below with real GitHub usernames.
 
-/engine/         @ZACH_GITHUB
+/engine/         @szpakz
 /physics/        @DAN_GITHUB
 /ml/             @HariPatel13
 /platform/       @CHRIS_GITHUB
 /db/migrations/  @CHRIS_GITHUB
 
 # Changing a shared contract needs everyone
-/docs/contracts.md  @HariPatel13 @ZACH_GITHUB @DAN_GITHUB @CHRIS_GITHUB
+/docs/contracts.md  @HariPatel13 @szpakz @DAN_GITHUB @CHRIS_GITHUB
