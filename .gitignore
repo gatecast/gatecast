@@ -242,3 +242,38 @@ Thumbs.db
 ehthumbs.db
 desktop.ini
 $RECYCLE.BIN/
+# ---- Gatecast additions ----
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Go (engine/)
+engine/bin/
+*.exe
+*.test
+*.out
+go.work.sum
+
+# Node / React (platform/)
+node_modules/
+platform/**/dist/
+platform/**/build/
+npm-debug.log*
+.vite/
+
+# Data and models (ml/, physics/): too big for Git, download locally instead
+data/
+*.parquet
+*.pkl
+*.joblib
+ml/models/
+ml/notebooks/.ipynb_checkpoints/
+
+# Local Postgres / Docker volumes
+pgdata/
